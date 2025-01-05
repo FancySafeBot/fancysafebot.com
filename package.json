@@ -1,0 +1,34 @@
+{
+	"name": "fancysafebot.com",
+	"version": "1.0.0",
+	"description": "Landing page for Fancy Safe Bot, a robotics library for safety-critical applications",
+	"type": "module",
+	"engines": {
+		"node": ">=18"
+	},
+	"keywords": [],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/FancySafeBot/fancysafebot.com.git"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Kyle Chisholm",
+		"email": "hello@fancysafebot.com",
+		"url": "https://kylechisholm.com/"
+	},
+	"scripts": {
+		"start": "npx @11ty/eleventy --serve --quiet",
+		"build": "npx @11ty/eleventy"
+	},
+	"devDependencies": {
+		"@11ty/eleventy": "^3.0.0",
+		"@11ty/eleventy-img": "^5.0.0",
+		"@11ty/eleventy-navigation": "^0.3.5",
+		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+		"eleventy-plugin-icons": "^4.5.1",
+		"lucide-static": "^0.469.0",
+		"markdown-it": "^14.1.0",
+		"markdown-it-attrs": "^4.3.0"
+	}
+}

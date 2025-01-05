@@ -1,0 +1,86 @@
+
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+
+:root {
+
+  --bulma-primary-h: 160deg;
+  --bulma-primary-s: 50%;
+  --bulma-primary-l: 65%;
+
+  --bulma-link-h: 13deg;
+  --bulma-link-s: 89%;
+  --bulma-link-l: 55%;
+
+  --bulma-info-h: 181deg;
+  --bulma-info-s: 40%;
+  --bulma-info-l: 71%;
+
+  --bulma-scheme-h: 175;
+
+  /* Typography */
+  --bulma-family-primary: Inter, SF Pro, Segoe UI, Roboto, Oxygen, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif;
+  --bulma-family-secondary: Inter, SF Pro, Segoe UI, Roboto, Oxygen, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif;
+  --bulma-family-code: Hack, Inconsolata, SF Mono, Roboto Mono, Source Code Pro, Ubuntu Mono, monospace;
+
+	--bulma-body-size: 1.5rem;
+}
+
+.card {
+  --bulma-card-shadow: 0 0 0 0.3em hsla(var(--bulma-primary-h),var(--bulma-primary-s),50%);
+}
+
+.hero-title {
+	font-size: 3rem;
+	font-weight: 700;
+	line-height: 1.0;
+	text-transform: uppercase;
+	font-family: 'Sofia Sans Extra Condensed', sans-serif;
+}
+.hero-subtitle {
+	font-size: 1rem;
+}
+.hero-image {
+	padding-top: 0.5em;
+	max-width: 400px;
+}
+
+@media screen and (min-width: 768px) {
+	.hero-title {
+		font-size: 3.5rem;
+	}
+	.hero-subtitle {
+		font-size: 1.1rem;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.hero-title {
+		font-size: 4rem;
+	}
+	.hero-subtitle {
+		font-size: 1.2rem;
+	}
+}
+
+@media screen and (min-width: 1216px) {
+	.hero-title {
+		font-size: 5rem;
+	}
+	.hero-subtitle {
+		font-size: 1.5rem;
+	}
+}
+
+
+@media screen and (min-width: 1408px) {
+	.hero-title {
+		font-size: 6rem;
+	}
+	.hero-subtitle {
+		font-size: 2rem;
+	}
+}
+
+.has-text-secondary {
+	color: #a7311e;
+}

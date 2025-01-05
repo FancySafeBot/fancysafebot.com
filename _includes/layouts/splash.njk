@@ -1,0 +1,13 @@
+---
+layout: base
+---
+<main>
+  {# <nav class="navbar"></nav> #}
+	{% include "snippets/splash-hero.njk" %}
+	<section class="section" tabindex="0">
+    <div class="container content">
+    {{ content | safe }}
+		</div>
+  </section>
+  {% include "snippets/footer.njk" %}
+</main>
