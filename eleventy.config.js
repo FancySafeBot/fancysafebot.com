@@ -50,7 +50,7 @@ export default function (eleventyConfig) {
 		formats: ["webp", "jpeg"],
 
 		// optional, output image widths
-		widths: [300, 800, 2048, "auto"],
+		widths: [300, 500, 800, 1024, 2048],
 
 		// optional, attributes assigned on <img> override these values.
 		defaultAttributes: {

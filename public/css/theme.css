@@ -22,11 +22,11 @@
   --bulma-family-secondary: Inter, SF Pro, Segoe UI, Roboto, Oxygen, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif;
   --bulma-family-code: Hack, Inconsolata, SF Mono, Roboto Mono, Source Code Pro, Ubuntu Mono, monospace;
 
-	--bulma-body-size: 1.5rem;
+	--bulma-body-size: 1.2rem;
 }
 
 .card {
-  --bulma-card-shadow: 0 0 0 0.3em hsla(var(--bulma-primary-h),var(--bulma-primary-s),50%);
+  --bulma-card-shadow: 0 0 0 0.25em hsla(var(--bulma-primary-h),var(--bulma-primary-s),50%);
 }
 
 .hero-title {
@@ -34,7 +34,7 @@
 	font-weight: 700;
 	line-height: 1.0;
 	text-transform: uppercase;
-	font-family: 'Sofia Sans Extra Condensed', sans-serif;
+	font-family: 'Sofia Sans Extra Condensed', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 .hero-subtitle {
 	font-size: 1rem;
@@ -50,6 +50,9 @@
 	}
 	.hero-subtitle {
 		font-size: 1.1rem;
+	}
+	:root{
+		--bulma-body-size: 1.35rem;
 	}
 }
 
@@ -68,6 +71,9 @@
 	}
 	.hero-subtitle {
 		font-size: 1.5rem;
+	}
+	:root{
+		--bulma-body-size: 1.5rem;
 	}
 }
 
